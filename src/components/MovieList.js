@@ -1,6 +1,6 @@
 import React,{ PropTypes } from 'react';
 import {connect} from 'react-redux';
-import MovieTile from './movieTile';
+import MovieTile from './MovieTile';
 import {setMovieNames} from '../actions';
 import filterArray from 'lodash/filter';
 import indexOf from 'lodash/indexOf';
